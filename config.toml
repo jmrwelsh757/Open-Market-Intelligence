@@ -50,12 +50,21 @@ paginate = 8
   #  primaryColor = "#dad865"
 
   # Red theme
+  #[params.style]
+  #  darkestColor = "#d35050"
+  #  darkColor = "#212121"
+  #  lightColor = "#d6d6d6"
+  #  lightestColor = "#d3d3d3"
+  #  primaryColor = "#ffffff"
+
+  #open-market-intelligence theme
   [params.style]
-    darkestColor = "#d35050"
-    darkColor = "#212121"
-    lightColor = "#d6d6d6"
-    lightestColor = "#d3d3d3"
-    primaryColor = "#ffffff"
+    darkestColor = "#9e66d4"   #banner color
+    darkColor = "#ffffff"      #background color
+    lightColor = "#111111"     #text color
+    lightestColor = "#ffffff"  #title color
+    primaryColor = "#111111"   #links and tags
+
 
 [markup]
   [markup.goldmark]
