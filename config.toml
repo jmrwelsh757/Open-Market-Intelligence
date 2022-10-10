@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "/"
 title = "Your title"
 theme = "hugo-theme-m10c"
 paginate = 8
@@ -56,3 +56,8 @@ paginate = 8
   #  lightColor = "#d6d6d6"
   #  lightestColor = "#d3d3d3"
   #  primaryColor = "#ffffff"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
